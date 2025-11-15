@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glass Morphism Navbar</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">GlassMorph</span>
+      </div>
+
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#services" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Glass Morphism Design</h1>
+        <p class="hero-subtitle">Experience modern UI with beautiful glass effects and smooth dark mode transitions</p>
+        <button class="cta-button">Get Started</button>
+      </div>
+    </section>
+
+    <section class="content-section" id="about">
+      <div class="section-container">
+        <h2 class="section-title">About</h2>
+        <p class="section-text">This navbar features a stunning glass morphism effect with backdrop blur, semi-transparent backgrounds, and elegant borders. The design adapts seamlessly between light and dark modes.</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">✨</div>
+            <h3>Glass Effect</h3>
+            <p>Beautiful backdrop blur with semi-transparent backgrounds</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌓</div>
+            <h3>Dark Mode</h3>
+            <p>Smooth transitions between light and dark themes</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Responsive</h3>
+            <p>Perfect adaptation across all device sizes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt" id="services">
+      <div class="section-container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-text">We offer cutting-edge web design solutions with modern aesthetics and exceptional user experiences.</p>
+        <div class="services-list">
+          <div class="service-item">
+            <h3>UI/UX Design</h3>
+            <p>Creating intuitive and beautiful user interfaces</p>
+          </div>
+          <div class="service-item">
+            <h3>Web Development</h3>
+            <p>Building responsive and performant web applications</p>
+          </div>
+          <div class="service-item">
+            <h3>Brand Identity</h3>
+            <p>Crafting unique visual identities for your brand</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="contact">
+      <div class="section-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-text">Ready to start your next project? Let's create something amazing together.</p>
+        <div class="contact-info">
+          <a href="mailto:hello@glassmorph.com" class="contact-link">hello@glassmorph.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
